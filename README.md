@@ -15,3 +15,5 @@ A Streamlit-based web application that generates and previews single-page websit
 - **Streamlit**: Web interface.  
 - **Google Gemini LLM**: AI-powered content generation.  
 
+DEMO LINK:
+https://www.linkedin.com/posts/heera-yr_genai-webdevelopment-ai-activity-7281652847912329216-_iLf?utm_source=share&utm_medium=member_desktop&rcm=ACoAADe7_2kBzye6irSlm8ugl3cfh48S3LVyWxU

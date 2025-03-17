@@ -21,30 +21,30 @@ pip package manager
 Setup
 
 Clone the repository:
-bashCopygit clone https://github.com/yourusername/genai-website-builder.git
+git clone 
 cd genai-website-builder
 
 Create and activate a virtual environment (optional but recommended):
-bashCopypython -m venv venv
+python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
-Install the required dependencies:
-bashCopypip install -r requirements.txt
+**Install the required dependencies:**
+pip install -r requirements.txt
 
 Create a .env file in the project root directory and add your Google API key:
-CopyGOOGLE_API_KEY=your_api_key_here
+GOOGLE_API_KEY=your_api_key_here
 
 Usage
 
-Run the Streamlit application:
-bashCopystreamlit run app.py
+**Run the Streamlit application:**
+streamlit run app.py
 
 Open your web browser and navigate to http://localhost:8501
 Enter a description of the website you want to create in the text area
 Click "Generate and Preview" to see your website come to life
 Copy the generated code for use in your projects
 
-Technical Details
+**Technical Details**
 
 Framework: Streamlit for the UI
 AI Model: Google's Gemini 1.5 Flash
@@ -55,7 +55,7 @@ Limitations
 
 The application requires an active internet connection to access the Gemini API
 Complex interactive features like JavaScript functionality may be limited
-Generated designs are based on the AI's training data and may need customization
+Generated designs may need customization
 
 DEMO LINK:
 https://www.linkedin.com/posts/heera-yr_genai-webdevelopment-ai-activity-7281652847912329216-_iLf?utm_source=share&utm_medium=member_desktop&rcm=ACoAADe7_2kBzye6irSlm8ugl3cfh48S3LVyWxU
